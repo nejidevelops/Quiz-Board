@@ -62,3 +62,12 @@ body{
     font-size: 1.5rem;
     padding: 1.3rem;
 }
+
+.quiz-header button:hover{
+    color: #042123;
+}
+
+.quiz-header button:focus{
+    outline: none;
+    background-color: #042123;
+}
