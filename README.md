@@ -1,6 +1,3 @@
-### FIGMA LINK
-https://www.figma.com/file/PkXqTgR4G9s4VY627PrzP1/QUIZ-CARD?node-id=1%3A35
-
 # QUIZ BOARD APP
 
    ## By Newton Ombese
@@ -32,16 +29,27 @@ As a user of the application,you will be able to :
 2. To test your level of tech understanding
 3. To learn things you thought you knew but you didn't
 4. Understand how best Javascript can be used across
+
+### Design
+The design used for this project is similar to the one in **figma**.
+The designs in figma are two:
+    - Page one (Design for the first question and the other questions)
+    - Page Two (Results after finishing up the questions)
+You can access and view the design via the link below:
+https://www.figma.com/file/PkXqTgR4G9s4VY627PrzP1/QUIZ-CARD?node-id=1%3A35
+
  ###  Requirements
 
  * Access to  a computer or any other garget
 
  * Access to internet
 
+ * Access to applicable text editors and web browser
+
 ### Installation Process
 
  ****  
-* Clone to the repo : git clone https://github.com/NewtonOmbese/Quick-Movers-Website.git
+* Clone to the repo : git clone https://github.com/NewtonOmbese/Quiz-Board.git
 
 * Unzip the downloaded files in a folder of choice.
 
@@ -54,6 +62,8 @@ As a user of the application,you will be able to :
 * HTML - which was used to develope the structure off the pages.
 
 * CSS - which was used to style the User Interface.
+
+* JS - which was used to functionalize the web app
 
 MIT License
 
