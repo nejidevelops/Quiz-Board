@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Actor&family=Adamina&family=Kaushan+Script&family=Nunito:ital,wght@0,200;0,300;0,400;1,400&family=Poppins:ital,wght@0,300;1,100&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Kaushan Script', cursive;
+    list-style: none;
+}
+
+body{
+    background: linear-gradient(rgba(0,0,0,0.5), #042123), url(../Images/javascript-4523100_1920.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quiz-boardcontainer{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 11px 2px rgba(17, 15, 15 ,0.3);
+    opacity: 0.6;
+    width: 31.25rem;
+    overflow: hidden;
+}
+
+.quiz-header{
+    padding: 4rem;
+}
+
+.quiz-header h2{
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+}
+
+.quiz-header ul{
+    padding: 0;
+}
+
+.quiz-header ul li{
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+.quiz-header ul li label{
+    cursor: pointer;
+}
+
+.quiz-header button{
+    background-color: #0f919b;
+    color: white;
+    border: none;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 1.3rem;
+}
