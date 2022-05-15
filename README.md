@@ -56,7 +56,7 @@ https://www.figma.com/file/PkXqTgR4G9s4VY627PrzP1/QUIZ-CARD?node-id=1%3A35
 * Open the index file from the zipped file with any browser.
 
 ### Live Link
-* The live link for the project is https://newtonombese.github.io/Quick-Movers-Website/
+* The live link for the project is https://newtonombese.github.io/Quiz-Board/
 
 ### Technology  Used
 * HTML - which was used to develope the structure off the pages.
