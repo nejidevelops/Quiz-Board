@@ -24,6 +24,22 @@ export const questionsData = [
         correct: "a",
     },
     {
-        question: ""
+        question: "What do programmers take as they code?",
+        a: "A walk",
+        b: "A cup of coffee",
+        c: "A beer",
+        d: "A chat",
+        correct: "b",
+    },
+    {
+        question: 'Is web development fun?',
+        a: 'Kinda',
+        b: 'YES!!!',
+        c: 'Um no',
+        d: 'IDK',
+        correct: "b",
+    }
+    {
+        
     }
 ];
