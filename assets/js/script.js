@@ -27,6 +27,41 @@ function loadQuiz(){
     answer_c.innerText = currentQuizData.c;
     answer_d.innerText = currentQuizData.d;
 
-    
-
 }
+
+function deselectAnswers(){
+    answerR.forEach((answerW) => (answerW.checked = false));
+}
+
+function getSelected(){
+    let answer;
+    answerR.forEach((answerW) => {
+        if(answerW.checked){
+            answer = answerW.id;
+        }
+    });
+
+    return answer;
+};
+
+submitBtn.addEventListener("click", () => {
+    const answer = getSelected();
+
+    if(answer === questionsData[currentQuiz].correct){
+        score++;
+    }
+    currentQuiz++;
+
+    if(currentQuiz < questionsData.length){
+        loadQuiz();
+    } 
+    else{
+        quiz.innerHTML = `<h2> Your score:
+        <br>
+        ${score}/${questionsData.length}
+        <h2>
+        
+        <button onclick = "location.reload()">Reload</button>
+        `;
+    }
+});

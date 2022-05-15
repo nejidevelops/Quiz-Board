@@ -21,5 +21,9 @@ export const questionsData = [
         b: "Java",
         c: "SQL",
         d: "HTML",
+        correct: "a",
     },
+    {
+        question: ""
+    }
 ];
