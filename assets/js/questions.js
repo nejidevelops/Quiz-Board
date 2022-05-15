@@ -16,8 +16,8 @@ export const questionsData = [
         correct: "c",
     },
     {
-        question: "Which language is used to provide functionality of a website?",
-        a: "Javascript",
+        question: "Which language is used to provide styling to a website?",
+        a: "CSS",
         b: "Java",
         c: "SQL",
         d: "HTML",
@@ -32,14 +32,51 @@ export const questionsData = [
         correct: "b",
     },
     {
-        question: 'Is web development fun?',
+        question: "Is web development fun?",
         a: 'Kinda',
         b: 'YES!!!',
         c: 'Um no',
         d: 'IDK',
         correct: "b",
-    }
+    },
     {
-        
-    }
+        question: "In what language do computer process it's data?",
+        a: "Scala",
+        b: "Spanish",
+        c: "English",
+        d: "Binary",
+        correct: "d",
+    },
+    {
+        question: "What does CSS stand for?",
+        a: "Central Style Sheets",
+        b: "Cascading Style Sheets",
+        c: "Cascading Simple Sheets",
+        d: "Corrected Sheet Source",
+        correct: "b",
+    },
+    {
+        question: "Which language runs in a web browser?",
+        a: "Java",
+        b: "C",
+        c: "Flutter",
+        d: "JavaScript",
+        correct: "d",
+    },
+    {
+        question: "Which school is best for aspiring software engineers?",
+        a: "JKUAT",
+        b: "Moringa",
+        c: "ALX",
+        d: "ICS",
+        correct: "b",
+    },
+    {
+        question: "Who among the following is not a technical mentor at Moringa?",
+        a: "Rose Oketch",
+        b: "Silas Silikhe",
+        c: "Newton Bofulo",
+        d: "Albert Byrone",
+        correct: "c",
+    },
 ];
