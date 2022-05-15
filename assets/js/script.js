@@ -56,7 +56,7 @@ submitBtn.addEventListener("click", () => {
         loadQuiz();
     } 
     else{
-        quiz.innerHTML = `<h2>              Your score:
+        quiz.innerHTML = `<h2>Your score:
         <br>
         ${score}/${questionsData.length}
         <h2>
