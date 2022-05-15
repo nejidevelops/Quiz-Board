@@ -9,7 +9,7 @@
 
 - [Description](#description)
 - [Features](#features)
-- [Design] (#design)
+- [Design](#design)
 - [Requirements](#requirements)
 - [Installation Process](#installation-Process)
 - [Live link](#Live-Link)
@@ -30,7 +30,7 @@ As a user of the application,you will be able to :
 3. To learn things you thought you knew but you didn't
 4. Understand how best Javascript can be used across
 
-### Design
+## Design
 The design used for this project is similar to the one in **figma**.
 The designs in figma are two:
     - Page one (Design for the first question and the other questions)
