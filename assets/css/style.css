@@ -9,6 +9,7 @@
 }
 
 body{
+    background: linear-gradient(rgba(0,0,0,0.5), #042123), url(../Images/javascript-4523100_1920.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
