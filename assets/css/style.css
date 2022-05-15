@@ -54,7 +54,7 @@ body{
 
 .quiz-header button{
     background-color: #0f919b;
-    color: white;
+    color: #1e9bff;
     border: none;
     display: block;
     width: 100%;
@@ -63,6 +63,14 @@ body{
     padding: 1.3rem;
     margin-top: 1.6rem;
     transition: 2s ease-in;
+    position: relative;
+}
+
+.quiz-header button::before{
+    position: absolute;
+    content: '';
+    inset: 2px;
+    /* background: #fff; */
 }
 
 .quiz-header button:hover{
@@ -76,3 +84,32 @@ body{
     outline: none;
     background-color: #042123;
 }
+
+.quiz-header button span{
+    position: relative;
+    z-index: 1;
+}
+
+.quiz-header button i{
+    position: absolute;
+    inset: 0;
+    display: block;
+}
+
+.quiz-header button i:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 80%;
+    width: 0.63rem;
+    height: 0.25rem;
+    background: #042123;
+    transform: translateX(58%) skewX(325deg);
+    transition: 0.6s;
+}
+
+.quiz-header button:hover i:before{
+    width: 1.25rem;
+    left: 20%;
+}
+
